@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tenkayfan.club</title>
+    <link rel="stylesheet" href="stars.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+</head>
+
+<style>
+
+@keyframes fadeUp {
+  0% {
+    transform: translateY(50px); 
+    opacity: 0; 
+  }
+  100% {
+    transform: translateY(0); 
+    opacity: 1; 
+  }
+}
+
+    body {
+    animation: fadeUp 1s ease-out;
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(20px);
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 98vh;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.users {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    transition: all 0.3s;
+    margin-top: -5px;
+    padding: 5px;
+}
+
+p:hover {
+    transform: scale(1.1);
+}
+
+
+</style>
+
+<body>
+    <div class='galaxy'>
+        <div class='stars1'></div>
+        <div class='stars2'></div>
+        <div class='stars3'></div>
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <img src="https://i.pinimg.com/736x/33/46/c9/3346c9cd51aae4e6a5c3eb90bd06b60e.jpg" draggable="false" width="220px">  
+
+            <h2 id="tenkayfanclub" >tenkayfan[.]club</h2>
+
+
+            <div class="users">
+                <div class="one">
+                    <a href="/monster"><p>Monster</p></a>
+                    <a href=""><p>zipper</p></a>
+                    <a href=""><p>ego</p></a>
+                </div>
+                <div class="two">
+                    <a href="/maison"><p>Maison</p></a>
+                    <a href=""><p>nagi</p></a>
+                    <a href=""><p>pier</p></a>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+    <script src="cursor.js"></script>
+
+    <audio autoplay loop src="https://files.catbox.moe/id0gdo.mp3"></audio>
+</body>
+</html>
+
