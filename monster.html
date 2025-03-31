@@ -112,6 +112,14 @@
         pointer-events: auto; 
     }
 
+    #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 
 .glitch {
     color: rgb(255, 255, 255);
@@ -122,13 +130,17 @@
 </head>
 <body>
 
+    <video autoplay muted loop id="myVideo">
+        <source src="https://files.catbox.moe/pzehxu.mp4" type="video/mp4">
+      </video>
+
     <div id="overlay" class="overlay" onclick="removeOverlay();">
         <h3 class="glitch">Click to enter</h3>
     </div> 
 
     <div class="container">
         <div class="box">
-            <div class="pfp"><img src="https://cdn.discordapp.com/attachments/1336563991085977633/1353844617182969978/83a18f0dd98e4de27c70663d28cf04d7.png?ex=67e7becd&is=67e66d4d&hm=69f16ca7aef3d5f38ccedf74ed92a68f312859a83a366af26070f5df2d1a513e&" width="65px"></div>
+            <div class="pfp"><img src="https://i.pinimg.com/736x/0f/65/00/0f65008d03f64f70dafea97d14fb7173.jpg" width="65px"></div>
             <div class="username">monster</div>
             <div class="typewriter" id="typewriter"></div>
             <div class="bio"></div>
@@ -199,6 +211,6 @@
         }
     </script>
 
-        <audio autoplay loop src="https://files.catbox.moe/ui2peb.mp3"></audio>
+    <audio autoplay loop src="https://files.catbox.moe/ygwb4v.mp3"></audio>
 </body>
 </html>
